@@ -1,18 +1,15 @@
 <div class="big-card__container">
   <div class="big-card__photo">
-    <img src="https://via.placeholder.com/400" alt="big card image" />
+    <img src="{{ photoCover }}" alt="big card image" />
   </div>
   <div class="big-card__title">
     <h1>
-      <a href="#"> Title </a>
+      <a href="#"> {{ cardTitle }} </a>
     </h1>
   </div>
   <div class="big-card__description">
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-      consectetur, nunc nec vehicula ultricies, nunc nunc ultricies sapien, nec
-      vehicula elit nunc nec vehicula ultricies, nunc nunc ultricies sapien, nec
-      vehicula elit.
+      {{ cardDescription }}
     </p>
   </div>
 </div>

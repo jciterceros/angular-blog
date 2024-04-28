@@ -19,7 +19,7 @@
 }
 
 .big-card__title > h1 {
-  font-size: 40px;
+  font-size: 32px;
   margin-top: 20px;
   margin-bottom: 5px;
 }
@@ -35,4 +35,19 @@
 .big-card__description {
   max-width: 100%;
   padding: 0 20px;
+}
+
+/******************** RESPONSIVE *******************************/
+@media screen and (max-width: 600px) {
+  .big-card__title,
+  .big-card__description {
+    padding: 0;
+  }
+  .big-card__title > h1 {
+    font-size: 1.4rem;
+  }
+  .big-card__photo > img {
+    max-width: 200px;
+    max-height: 200px;
+  }
 }

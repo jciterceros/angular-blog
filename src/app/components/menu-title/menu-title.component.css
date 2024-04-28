@@ -2,7 +2,7 @@
   color: #ffffff;
 }
 
-.menu__title__container h1 {
+.menu__title__container > h1 {
   font-family: "segoe ui", sans-serif;
   font-size: 80px;
   font-weight: 700;
@@ -13,4 +13,11 @@
 .menu__title__container > hr {
   border: 1px solid #ffffff;
   margin-top: 10px;
+}
+
+/******************** RESPONSIVE *******************************/
+@media screen and (max-width: 600px) {
+  .menu__title__container h1 {
+    font-size: 2rem;
+  }
 }
