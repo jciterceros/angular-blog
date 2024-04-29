@@ -9,7 +9,7 @@ p {
   flex-direction: column;
   justify-content: center;
   margin-top: 10px;
-  min-height: 10%;
+  min-height: 5%;
 }
 
 .articles__container {

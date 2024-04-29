@@ -1,0 +1,51 @@
+.content__container {
+  width: 100vw;
+  height: 92vh;
+
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content__photo {
+  border: 1px solid grey;
+}
+.content__photo > img {
+  border: 5px solid rgb(144, 144, 144);
+  width: 800px;
+  min-width: 450px;
+  height: 450px;
+}
+.content__title {
+  max-width: 100%;
+  padding: 0 20px;
+}
+.content__title > h1 {
+  margin-bottom: 5px;
+}
+.content__description {
+  max-width: 80%;
+  padding: 0 20px;
+}
+.content__description > p {
+  margin-top: 15px;
+  color: grey;
+}
+.content__buttons {
+  max-width: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
+.content__buttons > button {
+  padding: 8px 20px;
+  margin-bottom: 30px;
+  background-color: rgb(66, 66, 232);
+  border: none;
+  color: #fff;
+  border-radius: 15px;
+}
+.content__buttons > button:hover {
+  background-color: rgb(95, 95, 250);
+  border: #ffffff86 solid 2px;
+}
